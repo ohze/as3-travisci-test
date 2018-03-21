@@ -6,13 +6,13 @@ before_script:
   - export "JAVA_HOME=`/usr/libexec/java_home`"
 
   # Get hold of ANT.
-  - brew update
+  #- brew update
   - brew install ant
 
   # Grab Flex SDK
-  - curl -L https://bitbucket.org/nguyenbs/air-sdks/raw/3f2fd74094c2343b996f06e92699a56c8c9c6113/air_sdk_28.blob > air_sdk.zip
-  - unzip air_sdk.zip -d ./air_sdk
-  - export "FLEX_HOME=`pwd`/air_sdk"
+  - curl -L https://bitbucket.org/nguyenbs/air-sdks/raw/3f2fd74094c2343b996f06e92699a56c8c9c6113/sdk_28.blob > sdk.zip
+  - unzip sdk.zip -d ./sdk
+  - export "SDK_HOME=`pwd`/sdk"
 
   # Download and install a specific Flash Player from the Adobe Archives:
   # https://helpx.adobe.com/flash-player/kb/archived-flash-player-versions.html
