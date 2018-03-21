@@ -10,7 +10,7 @@ before_script:
   - brew install ant
 
   # Grab Flex SDK
-  - curl -L https://bitbucket.org/nguyenbs/air-sdks/raw/3f2fd74094c2343b996f06e92699a56c8c9c6113/sdk_28.blob > sdk.zip
+  - curl -L https://bitbucket.org/nguyenbs/air-sdks/raw/3f2fd74094c2343b996f06e92699a56c8c9c6113/air_sdk_28.blob > sdk.zip
   - unzip sdk.zip -d ./sdk
   - export "SDK_HOME=`pwd`/sdk"
 
