@@ -10,9 +10,9 @@ before_script:
   - brew install ant
 
   # Grab Flex SDK
-  - curl -L http://download.macromedia.com/pub/flex/sdk/flex_sdk_4.6.zip > flex_sdk.zip
-  - unzip flex_sdk.zip -d ./flex_sdk
-  - export "FLEX_HOME=`pwd`/flex_sdk"
+  - curl -L https://bitbucket.org/nguyenbs/air-sdks/raw/3f2fd74094c2343b996f06e92699a56c8c9c6113/air_sdk_28.blob > air_sdk.zip
+  - unzip air_sdk.zip -d ./air_sdk
+  - export "FLEX_HOME=`pwd`/air_sdk"
 
   # Download and install a specific Flash Player from the Adobe Archives:
   # https://helpx.adobe.com/flash-player/kb/archived-flash-player-versions.html
