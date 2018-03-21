@@ -1,7 +1,7 @@
 AS3 Vanilla
 ===========
 
-[![Build Status](https://travis-ci.org/jonnyreeves/as3-vanilla.svg?branch=master)](https://travis-ci.org/jonnyreeves/as3-vanilla)
+[![Build Status](https://travis-ci.org/nguyenbs/as3-travisci-test.svg?branch=master)](https://travis-ci.org/nguyenbs/as3-travisci-test)
 
 A lightweight library which enables a developer to extract a strongly typed Model Object from a untyped dynamic object 
 without having to write a single line of parsing or marshalling code.  An example use case would be turning data 
