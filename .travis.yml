@@ -16,8 +16,7 @@ before_script:
 
   # Download and install a specific Flash Player from the Adobe Archives:
   # https://helpx.adobe.com/flash-player/kb/archived-flash-player-versions.html
-  - curl -L https://raw.githubusercontent.com/Larusso/travis-CI-actionscript-demo/master/getFpFromArchive.sh > getFpFromArchive.sh
-  - sh getFpFromArchive.sh 'http://f-project.net/flashplayers/fp_28.0.0.161_archive.zip'
+  - sh getFpFromArchive.sh 'https://bitbucket.org/nguyenbs/air-sdks/raw/fcb84a7ffac3ba5b0a8b1a3072e7915b3fb30b8f/fp_28.0.0.161_archive.zip'
   - export FLASH_CMD="`pwd`/Flash Player Debugger.app/Contents/MacOS/Flash Player Debugger"
 
 script: ant test -DFLASH_PLAYER_CMD="${FLASH_CMD}"
