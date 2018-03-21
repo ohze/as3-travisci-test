@@ -1,0 +1,12 @@
+# Build artifacts.
+bin
+dist
+
+# IDE crud.
+.project
+.idea
+.DS_Store
+.settings
+
+# User should generate their own copy.
+user.properties
